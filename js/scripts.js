@@ -16,4 +16,10 @@ $(document).ready(function(){
             $("#carousel-button").addClass('btn-danger');                
         }
     });
+    $("#loginButton").click(function(){
+        $("#loginModal").modal('show');
+    });
+    $("#reserveButton").click(function(){
+        $("#retableModal").modal('show');
+    });
 });
