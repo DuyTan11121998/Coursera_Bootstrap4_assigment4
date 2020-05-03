@@ -1,0 +1,31 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuyTan11121998/gittutorial.git"
+  },
+  "author": "Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuyTan11121998/gittutorial/issues"
+  },
+  "homepage": "https://github.com/DuyTan11121998/gittutorial#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
